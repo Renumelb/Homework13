@@ -1,4 +1,4 @@
-# Homework13 Clustering crypto
+# Homework13- Clustering rCypto
 In this homework assignment, you will put your new unsupervivsed learning into action by clustering cryptocurrencies and creating plots to present your results.You are asked to accomplish the following main tasks:
 
 1. Data Preprocessing: Prepare data for dimension reduction with PCA and clustering using K-Means.
@@ -21,7 +21,7 @@ Steps:
     -Create dummy variables for all the text features, and store the resulting data in a DataFrame named X.
     -Use the StandardScaler from sklearn to standardize all the data of the X DataFrame. 
 3. Use the PCA algorithm from sklearn to reduce the dimensions of the X DataFrame down to three principal components to create a DataFrame named pcs_df using as columns names "PC 1", "PC 2" and "PC 3";  use the crypto_df.index as the index for this new DataFrame.
-4. Use the KMeans algorithm from sklearn to cluster the cryptocurrencies using the PCA data.
+4. Use the KMeans algorithm from sklearn to cluster the cryptocurrencies using the PCA data. Note that the number of clusters that are to be used based on elbow curve may change when you re-run the code.
 5. Create a 3D-Scatter using Plotly Express to plot the clusters using the clustered_df DataFrame.
 6. Use hvplot.table to create a data table with all the current tradable cryptocurrencies. 
 7. Create a scatter plot using hvplot.scatter, to present the clustered data about cryptocurrencies.

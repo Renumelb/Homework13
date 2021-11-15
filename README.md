@@ -1,4 +1,4 @@
-# Homework13- Clustering rCypto
+# Homework13- Clustering Crypto
 In this homework assignment, you will put your new unsupervivsed learning into action by clustering cryptocurrencies and creating plots to present your results.You are asked to accomplish the following main tasks:
 
 1. Data Preprocessing: Prepare data for dimension reduction with PCA and clustering using K-Means.
